@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "11315692215",
+    "firebase_url": "https://ucopunto-mobile.firebaseio.com",
+    "project_id": "ucopunto-mobile",
+    "storage_bucket": "ucopunto-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11315692215:android:54151abcd2e30b280e4332",
+        "android_client_info": {
+          "package_name": "com.example.ucopunto_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11315692215-jhsmchr1stu6273763i9qkugqj26kjdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKdg99uszGQy3TrQoIzZRvlFtFbHeV794"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11315692215-jhsmchr1stu6273763i9qkugqj26kjdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
