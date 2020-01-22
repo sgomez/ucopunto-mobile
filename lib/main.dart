@@ -140,7 +140,7 @@ class _RideFormState extends State<RideForm> {
                 child: TextFormField(
                   onSaved: (String value) => _leavingTime = value,
                   validator: (value) {
-                    RegExp regex = new RegExp("[0-2][1-9]:[0-6][0-9]");
+                    RegExp regex = new RegExp("([0-1][0-9]|2[0-3]):[0-5][0-9]");
                     if (!regex.hasMatch(value)) {
                       return "El formato ha de ser hh:mm.";
                     }
