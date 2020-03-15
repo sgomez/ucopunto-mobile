@@ -115,6 +115,7 @@ class _RideFormState extends State<RideForm> {
                     if (value.length < 2) {
                       return "Un nombre debe tener más de un caracter.";
                     }
+                    return null;
                   },
                   decoration: InputDecoration(labelText: "Nombre"),
                 ),
@@ -127,6 +128,7 @@ class _RideFormState extends State<RideForm> {
                     if (value.isEmpty) {
                       return "Debes introducir un destino.";
                     }
+                    return null;
                   },
                   decoration: InputDecoration(
                     labelText: "Destino",
@@ -144,6 +146,7 @@ class _RideFormState extends State<RideForm> {
                     if (!regex.hasMatch(value)) {
                       return "El formato ha de ser hh:mm.";
                     }
+                    return null;
                   },
                   decoration: InputDecoration(
                     hintText: "hh:mm",
